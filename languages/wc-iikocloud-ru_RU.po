@@ -1,0 +1,1764 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wc-iikocloud\n"
+"POT-Creation-Date: 2024-09-15 13:08+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: wpwc.ru\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: includes/API_Requests/AJAX_API_Requests.php:28
+msgid "Access token was removed successfully"
+msgstr "Токен доступа успешно удален"
+
+#: includes/API_Requests/AJAX_API_Requests.php:31
+msgid "Error while access token removing"
+msgstr "Ошибка при удалении токена доступа"
+
+#: includes/API_Requests/AJAX_API_Requests.php:44 includes/Admin/Page.php:74
+msgid "Organizations"
+msgstr "Организации"
+
+#: includes/API_Requests/AJAX_API_Requests.php:50
+msgid "Response does not contain organizations"
+msgstr "Ответ не содержит организаций"
+
+#: includes/API_Requests/AJAX_API_Requests.php:62
+#: includes/API_Requests/AJAX_API_Requests.php:63
+#: includes/API_Requests/AJAX_API_Requests.php:95
+#: includes/API_Requests/AJAX_API_Requests.php:119
+#: includes/API_Requests/AJAX_API_Requests.php:120
+#: includes/API_Requests/AJAX_API_Requests.php:162
+#: includes/API_Requests/AJAX_API_Requests.php:203
+#: includes/API_Requests/AJAX_API_Requests.php:224
+#: includes/API_Requests/AJAX_API_Requests.php:243
+msgid "Organization"
+msgstr "Организация"
+
+#: includes/API_Requests/AJAX_API_Requests.php:65
+msgid "Error while adding organization ID in plugin settings. Organization ID"
+msgstr ""
+"Ошибка при добавлении ID организации в настройках плагина. ID организации"
+
+#: includes/API_Requests/AJAX_API_Requests.php:68
+#: includes/API_Requests/AJAX_API_Requests.php:128
+msgid ""
+"Error while adding organization name in plugin settings. No organization "
+"selected"
+msgstr ""
+"Ошибка при добавлении названия организации в настройках плагина. Не выбрана "
+"организация"
+
+#: includes/API_Requests/AJAX_API_Requests.php:74
+msgid "Cannot save import organization ID in plugin settings"
+msgstr "Невозможно сохранить ID организации импорта в настройках плагина"
+
+#: includes/API_Requests/AJAX_API_Requests.php:81
+#: includes/API_Requests/AJAX_API_Requests.php:148
+msgid "Cannot save organization name in plugin settings"
+msgstr "Невозможно сохранить название организации в настройках плагина"
+
+#: includes/API_Requests/AJAX_API_Requests.php:85
+msgid "Organization saved successfully"
+msgstr "Организация успешно сохранена"
+
+#: includes/API_Requests/AJAX_API_Requests.php:97
+#: includes/API_Requests/AJAX_API_Requests.php:124
+#: includes/API_Requests/AJAX_API_Requests.php:164
+#: includes/API_Requests/AJAX_API_Requests.php:207
+#: includes/API_Requests/AJAX_API_Requests.php:226
+#: includes/API_Requests/AJAX_API_Requests.php:247
+msgid "Organization ID"
+msgstr "ID организации"
+
+#: includes/API_Requests/AJAX_API_Requests.php:101 includes/Admin/Page.php:100
+msgid "Terminals"
+msgstr "Терминалы"
+
+#: includes/API_Requests/AJAX_API_Requests.php:107
+msgid "Organization does not have terminals"
+msgstr "Организация не содержит терминалы"
+
+#: includes/API_Requests/AJAX_API_Requests.php:121
+msgid "No terminal IDs"
+msgstr "Нет ID идентификаторов"
+
+#: includes/API_Requests/AJAX_API_Requests.php:122
+msgid "Terminal"
+msgstr "Терминал"
+
+#: includes/API_Requests/AJAX_API_Requests.php:125
+msgid "Terminal IDs"
+msgstr "ID терминалов"
+
+#: includes/API_Requests/AJAX_API_Requests.php:134
+msgid "Cannot save export organization ID in plugin settings"
+msgstr ""
+"Невозможно сохранить ID экспортируемой организации в настройках плагина"
+
+#: includes/API_Requests/AJAX_API_Requests.php:141
+msgid "Cannot save terminals in plugin settings"
+msgstr "Невозможно сохранить терминалы в настройках плагина"
+
+#: includes/API_Requests/AJAX_API_Requests.php:152
+msgid "Organization and terminals saved successfully"
+msgstr "Организация и терминалы успешно сохранены"
+
+#: includes/API_Requests/AJAX_API_Requests.php:169
+#: includes/API_Requests/AJAX_API_Requests.php:212
+msgid "Nomenclature"
+msgstr "Номенклатура"
+
+#: includes/API_Requests/AJAX_API_Requests.php:184 includes/Admin/Page.php:138
+msgid "Menus"
+msgstr "Меню"
+
+#: includes/API_Requests/AJAX_API_Requests.php:190
+msgid "Response does not contain menus"
+msgstr "Ответ не содержит меню"
+
+#: includes/API_Requests/AJAX_API_Requests.php:202
+msgid "Menu"
+msgstr "Меню"
+
+#: includes/API_Requests/AJAX_API_Requests.php:206
+#: includes/API_Requests/AJAX_API_Requests.php:314
+msgid "External menu ID"
+msgstr "ID внешнего меню"
+
+#: includes/API_Requests/AJAX_API_Requests.php:231 includes/Admin/Page.php:235
+msgid "Cities"
+msgstr "Города"
+
+#: includes/API_Requests/AJAX_API_Requests.php:244
+msgid "No city IDs"
+msgstr "Нет ID городов"
+
+#: includes/API_Requests/AJAX_API_Requests.php:245
+msgid "City"
+msgstr "Город"
+
+#: includes/API_Requests/AJAX_API_Requests.php:252
+msgid "Streets"
+msgstr "Улицы"
+
+#: includes/API_Requests/AJAX_API_Requests.php:265
+#: includes/API_Requests/AJAX_API_Requests.php:290
+msgid "No group IDs"
+msgstr "Нет ID групп"
+
+#: includes/API_Requests/AJAX_API_Requests.php:266
+#: includes/API_Requests/AJAX_API_Requests.php:291
+msgid "Group"
+msgstr "Группа"
+
+#: includes/API_Requests/AJAX_API_Requests.php:268
+#: includes/API_Requests/AJAX_API_Requests.php:293
+msgid "Group IDs"
+msgstr "ID групп"
+
+#: includes/API_Requests/AJAX_API_Requests.php:271
+msgid "Error while import chosen groups. No groups selected"
+msgstr "Ошибка при импорте выбранных групп. Группы не выбраны"
+
+#: includes/API_Requests/AJAX_API_Requests.php:296
+msgid "Error while saving chosen groups in plugin settings. No groups selected"
+msgstr ""
+"Ошибка при сохранении выбранных групп в настройках плагина. Группы не выбраны"
+
+#: includes/API_Requests/AJAX_API_Requests.php:302
+msgid "Cannot save chosen groups in plugin settings"
+msgstr "Невозможно сохранить выбранные группы в настройках плагина"
+
+#: includes/API_Requests/AJAX_API_Requests.php:317
+msgid "Error while saving menu ID in plugin settings. No menu ID selected"
+msgstr "Ошибка при сохранении ID меню в настройках плагина. Меню не выбрано"
+
+#: includes/API_Requests/AJAX_API_Requests.php:324
+msgid "Cannot save menu ID in plugin settings"
+msgstr "Невозможно сохранить ID меню в настройках плагина"
+
+#: includes/API_Requests/AJAX_API_Requests.php:333
+msgid "Groups saved successfully"
+msgstr "Группы успешно сохранены"
+
+#: includes/API_Requests/Address_API_Requests.php:41
+#, php-format
+msgid "Cannot add streets for the city %s to the plugin options."
+msgstr "Невозможно добавить улицы города %s в параметры плагина"
+
+#: includes/API_Requests/Address_API_Requests.php:49
+#, php-format
+msgid "Cannot add streets amount for the city %s to the plugin options."
+msgstr "Невозможно добавить количество улиц для города %s в настройки плагина"
+
+#: includes/API_Requests/Address_API_Requests.php:67
+msgid "Cannot add chosen cities IDs to the plugin options"
+msgstr "Невозможно добавить ID выбранных городов в настройки плагина"
+
+#: includes/API_Requests/Address_API_Requests.php:75
+msgid "Cannot add default city ID to the plugin options"
+msgstr ""
+"Невозможно добавить идентификатор города по умолчанию в настроки плагина"
+
+#: includes/API_Requests/Address_API_Requests.php:132
+msgid "Cannot add cities to the plugin options"
+msgstr "Невозможно добавить города в настройки плагина"
+
+#: includes/API_Requests/Address_API_Requests.php:139
+msgid "Response does not contain cities"
+msgstr "Ответ не содержит городов"
+
+#: includes/API_Requests/Address_API_Requests.php:210
+msgid "City "
+msgstr "Город "
+
+#: includes/API_Requests/Common_API_Requests.php:69
+msgid "iiko API-key is not set. Check the API-key in plugin settings"
+msgstr "API-ключ iiko не установлен. Проверьте API-ключ в настройках плагина"
+
+#: includes/API_Requests/Common_API_Requests.php:90
+msgid "Token request failed. Check the API-key in plugin settings"
+msgstr ""
+"Не удалось выполнить запрос токена. Проверьте API-ключ в настройках плагина"
+
+#: includes/API_Requests/Common_API_Requests.php:96
+msgid "Response does not contain token"
+msgstr "Ответ не содержит токен"
+
+#: includes/API_Requests/Common_API_Requests.php:103
+msgid "Cannot set access token transient"
+msgstr "Невозможно установить трансиент токена доступа"
+
+#: includes/API_Requests/Common_API_Requests.php:173
+msgid "Terminals are empty"
+msgstr "Терминалы пусты"
+
+#: includes/API_Requests/Export_API_Requests.php:46
+msgid "Order is empty"
+msgstr "Заказ пуст"
+
+#: includes/API_Requests/Export_API_Requests.php:124
+#, php-format
+msgid "Iiko export error. Order %s"
+msgstr "Ошибка экспорта в iiko. Заказ %s"
+
+#: includes/API_Requests/Export_API_Requests.php:125
+#, php-format
+msgid "Check %sWooCommerce logs%s on your website."
+msgstr "Проверьте %sлоги WooCommerce%s на вашем сайте"
+
+#: includes/API_Requests/Export_API_Requests.php:133
+#, php-format
+msgid "%s Check WooCommerce logs on your website."
+msgstr "%s Проверьте логи WooCommerce на вашем сайте."
+
+#: includes/API_Requests/Export_API_Requests.php:186
+msgid "Order"
+msgstr "Заказ"
+
+#: includes/API_Requests/Stock_API_Requests.php:51
+msgid "Error while caching iiko nomenclature"
+msgstr "Ошибка при кэшировании номенклатуры iiko"
+
+#: includes/API_Requests/Stock_API_Requests.php:72
+msgid "There are not dish groups"
+msgstr "Нет групп блюд"
+
+#: includes/API_Requests/Stock_API_Requests.php:76
+msgid "There are not products"
+msgstr "Нет блюд"
+
+#: includes/API_Requests/Stock_API_Requests.php:140
+msgid "Cannot add iiko product categories to the plugin options"
+msgstr "Невозможно добавить категории товаров iiko в настройки плагина"
+
+#: includes/API_Requests/Stock_API_Requests.php:150
+msgid "Cannot add nomenclature revision to the plugin options"
+msgstr "Невозможно добавить версию номенклатуры в настройки плагина"
+
+#: includes/API_Requests/Stock_API_Requests.php:185
+msgid "Error while caching iiko external menu nomenclature"
+msgstr "Ошибка при кэшировании номенклатуры внешнего меню iiko"
+
+#: includes/API_Requests/Stock_API_Requests.php:279
+msgid "Organization does not have nomenclature groups"
+msgstr "Организация не имеет номенклатурных групп"
+
+#: includes/API_Requests/Stock_API_Requests.php:377
+msgid "The external menu does not have categories"
+msgstr "Внешнее меню не имеет категорий"
+
+#: includes/Admin/Admin.php:74
+msgid "ORGANIZATIONS"
+msgstr "ОРГАНИЗАЦИИ"
+
+#: includes/Admin/Admin.php:75
+msgid "Chose organization"
+msgstr "Выберите организацию"
+
+#: includes/Admin/Admin.php:76
+msgid "TERMINALS"
+msgstr "ТЕРМИНАЛЫ"
+
+#: includes/Admin/Admin.php:77
+msgid "Chose terminals"
+msgstr "Выберите терминал"
+
+#: includes/Admin/Admin.php:78
+msgid "EXTERNAL MENUS"
+msgstr "ВНЕШНИЕ МЕНЮ"
+
+#: includes/Admin/Admin.php:79
+msgid "Chose menu"
+msgstr "Выберите меню"
+
+#: includes/Admin/Admin.php:80
+msgid "Chose groups"
+msgstr "Выберите группы"
+
+#: includes/Admin/Admin.php:81
+msgid "GROUPS"
+msgstr "ГРУППЫ"
+
+#: includes/Admin/Admin.php:82
+msgid "DISHES"
+msgstr "БЛЮДА"
+
+#: includes/Admin/Admin.php:83
+msgid "GOODS"
+msgstr "ТОВАРЫ"
+
+#: includes/Admin/Admin.php:84
+msgid "SERVICES"
+msgstr "УСЛУГИ"
+
+#: includes/Admin/Admin.php:85
+msgid "MODIFIERS"
+msgstr "МОДИФИКАТОРЫ"
+
+#: includes/Admin/Admin.php:86
+msgid "SIZES"
+msgstr "РАЗМЕРЫ"
+
+#: includes/Admin/Admin.php:87
+msgid "CATEGORIES"
+msgstr "КАТЕГОРИИ"
+
+#: includes/Admin/Admin.php:88
+msgid "CITIES"
+msgstr "ГОРОДА"
+
+#: includes/Admin/Admin.php:89
+msgid "Chose cities"
+msgstr "Выберите города"
+
+#: includes/Admin/Admin.php:105
+msgid "iikoCloud"
+msgstr "iikoCloud"
+
+#: includes/Admin/Admin.php:112 includes/Admin/Admin.php:168
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/Admin/Admin.php:119 includes/Admin/Settings.php:52
+#: includes/Admin/Settings.php:647
+msgid "General"
+msgstr "Главное"
+
+#: includes/Admin/Admin.php:126 includes/Admin/Settings.php:53
+msgctxt "Tab name"
+msgid "Import"
+msgstr "Импорт"
+
+#: includes/Admin/Admin.php:133 includes/Admin/Settings.php:54
+#: includes/Admin/Settings.php:513
+msgid "Export"
+msgstr "Экспорт"
+
+#: includes/Admin/Admin.php:140
+msgid "Logs"
+msgstr "Логи"
+
+#: includes/Admin/Admin.php:156
+msgid "Get Premium"
+msgstr "Улучшить до Премиум"
+
+#: includes/Admin/Admin.php:163
+msgid "Control"
+msgstr "Управление"
+
+#: includes/Admin/Admin.php:173
+msgid "Documentation"
+msgstr "Документация"
+
+#: includes/Admin/Admin.php:194
+msgid "Support"
+msgstr "Поддержка"
+
+#: includes/Admin/Admin.php:294
+msgid "Heads up, Please backup before upgrade!"
+msgstr "Внимание, сделайте резервную копию перед обновлением!"
+
+#: includes/Admin/Admin.php:300
+#, php-format
+msgid ""
+"The latest update includes some substantial changes across different areas "
+"of the plugin. We highly recommend you %1$sbackup your site before "
+"upgrading%2$s, and make sure you first update in a staging environment."
+msgstr ""
+"Последнее обновление включает в себя некоторые существенные изменения в "
+"различных областях плагина. Мы настоятельно рекомендуем %1$sсделать "
+"резервную копию%2$s вашего сайта перед обновлением и для начала попробовать "
+"обновить на тестовом сайте."
+
+#: includes/Admin/Inactive.php:25
+#, php-format
+msgid ""
+"%1$s error: the %2$s version %3$s or higher needs to be installed. The "
+"ionCube Loader is the industry standard PHP extension for running protected "
+"PHP code, and can usually be added easily to a PHP installation. For Loaders "
+"please visit %4$s and for an instructional video please see %5$s"
+msgstr ""
+"Ошибка %1$s: необходимо установить %2$s версии %3$s или выше. Загрузчик "
+"ionCube — это стандартное PHP-расширение для запуска защищенного PHP-кода, "
+"которое обычно можно легко добавить в установку PHP. Для информации о "
+"погрузчиках посетите %4$s, а также посмотрите обучающее видео — %5$s."
+
+#: includes/Admin/Inactive.php:40
+#, php-format
+msgid "%1$s requires %2$s to be installed and activated."
+msgstr "%1$s требует установки и активации %2$s."
+
+#: includes/Admin/Inactive.php:48
+#, php-format
+msgid "%1$s requires %2$s version %3$s or greater."
+msgstr "%1$s требует %2$s версии %3$s или более поздней."
+
+#: includes/Admin/MetaFields/ID.php:68 includes/Admin/MetaFields/ID.php:98
+msgid "iiko group ID"
+msgstr "iiko ID группы"
+
+#: includes/Admin/MetaFields/ID.php:75 includes/Admin/MetaFields/ID.php:109
+msgid "Uniqe iiko group ID for the product category."
+msgstr "Уникальный ID группы iiko для категории товаров."
+
+#: includes/Admin/MetaFields/ID.php:138 includes/Admin/MetaFields/ID.php:165
+#: includes/Admin/MetaFields/ID.php:203
+msgid "iiko ID"
+msgstr "iiko ID"
+
+#: includes/Admin/MetaFields/ID.php:166
+msgid "Uniqe iiko product ID."
+msgstr "Уникальный ID товара iiko."
+
+#: includes/Admin/MetaFields/ID.php:176
+msgid "iiko product category ID"
+msgstr "ID категории продукта iiko"
+
+#: includes/Admin/MetaFields/KBZHU.php:27 includes/Frontend/Shortcodes.php:61
+msgid "Energy value"
+msgstr "Энергетическая ценность"
+
+#: includes/Admin/MetaFields/KBZHU.php:28 includes/Frontend/Shortcodes.php:62
+msgid "Proteins"
+msgstr "Белки"
+
+#: includes/Admin/MetaFields/KBZHU.php:29 includes/Frontend/Shortcodes.php:63
+msgid "Fats"
+msgstr "Жиры"
+
+#: includes/Admin/MetaFields/KBZHU.php:30 includes/Frontend/Shortcodes.php:64
+msgid "Carbohydrates"
+msgstr "Углеводы"
+
+#: includes/Admin/MetaFields/KBZHU.php:49
+msgid "KBZHU (per 100g)"
+msgstr "КБЖУ (на 100 гр.)"
+
+#: includes/Admin/MetaFields/KBZHU.php:50
+msgid "KBZHU (per item)"
+msgstr "КБЖУ (на блюдо)"
+
+#: includes/Admin/Orders.php:37 includes/Admin/Orders.php:38
+msgid "Export order to iiko"
+msgstr "Экспорт заказа в iiko"
+
+#: includes/Admin/Orders.php:64 includes/Admin/Orders.php:65
+msgid "Check created delivery from iiko"
+msgstr "Проверить созданную доставку в iiko"
+
+#: includes/Admin/Page.php:54
+msgid "Get general information"
+msgstr "Получить основную информацию"
+
+#: includes/Admin/Page.php:56
+msgid "Organizations, terminals, categories and products from iiko."
+msgstr "Организации, терминалы, категории и товары из iiko."
+
+#: includes/Admin/Page.php:64
+msgctxt "Get"
+msgid "Organizations"
+msgstr "организации"
+
+#: includes/Admin/Page.php:80
+msgctxt "Save"
+msgid "Organization for Import"
+msgstr "организацию для импорта"
+
+#: includes/Admin/Page.php:92
+msgctxt "Get"
+msgid "Terminals"
+msgstr "терминалы"
+
+#: includes/Admin/Page.php:108
+msgctxt "Save"
+msgid "Organization and Terminal for Export"
+msgstr "организацию и терминал для экспорта"
+
+#: includes/Admin/Page.php:115
+msgid "Get nomenclature (menu)"
+msgstr "Получить номенклатуру (меню)"
+
+#: includes/Admin/Page.php:126
+msgid "External menus"
+msgstr "Внешние меню"
+
+#: includes/Admin/Page.php:127
+msgid "New method."
+msgstr "Новый метод."
+
+#: includes/Admin/Page.php:132
+msgctxt "Get"
+msgid "Menus"
+msgstr "меню"
+
+#: includes/Admin/Page.php:143
+msgid "Price categories"
+msgstr "Ценовые категории"
+
+#: includes/Admin/Page.php:149
+msgctxt "Get"
+msgid "Menu nomenclature"
+msgstr "номенклатуру меню"
+
+#: includes/Admin/Page.php:155
+msgid "Menu from iikoOffice"
+msgstr "Меню из iikoOffice"
+
+#: includes/Admin/Page.php:156
+msgid "Previous method."
+msgstr "Предыдущий метод."
+
+#: includes/Admin/Page.php:161
+msgctxt "Get"
+msgid "Nomenclature"
+msgstr "номенклатуру"
+
+#: includes/Admin/Page.php:165
+#, php-format
+msgid "You can change the import method in the %splugin settings%s."
+msgstr "Вы можете изменить метод импорта в %sнастройках плагина%s"
+
+#: includes/Admin/Page.php:178 includes/Admin/Settings.php:245
+msgid "Import"
+msgstr "Импорт"
+
+#: includes/Admin/Page.php:180
+msgid "Categories and products to WooCommerce."
+msgstr "Категорий и товаров в WooCommerce."
+
+#: includes/Admin/Page.php:186 includes/Traits/PageElementsTrait.php:277
+#: includes/Traits/PageElementsTrait.php:354
+msgid "Groups"
+msgstr "Группы"
+
+#: includes/Admin/Page.php:192
+#, php-format
+msgid "%sStrikethrough%s items are deleted groups."
+msgstr "%sЗачёркнутые%s элементы - это удаленные группы."
+
+#: includes/Admin/Page.php:201
+msgctxt "Save"
+msgid "selected groups for auto import"
+msgstr "выбранные группы для автоимпорта"
+
+#: includes/Admin/Page.php:208
+msgctxt "Get"
+msgid "products of selected groups"
+msgstr "товары выбранных групп"
+
+#: includes/Admin/Page.php:216
+msgid "Get additional information"
+msgstr "Получить дополнительную информацию"
+
+#: includes/Admin/Page.php:218
+msgid ""
+"Cities, streets and payment methods from iiko to prepare the export of "
+"orders from WooCommerce to iiko."
+msgstr ""
+"Города, улицы и способы оплаты из iiko для подготовки экспорта заказов из "
+"WooCommerce в iiko."
+
+#: includes/Admin/Page.php:226
+msgctxt "Get"
+msgid "Cities"
+msgstr "города"
+
+#: includes/Admin/Page.php:243
+msgctxt "Get"
+msgid "Streets"
+msgstr "улицы"
+
+#: includes/Admin/Page.php:248
+msgid "And save chosen city and streets to the plugin options."
+msgstr "И сохранить выбранный город и улицы в настройки."
+
+#: includes/Admin/Page.php:262
+msgid "Terminal:"
+msgstr "Терминал:"
+
+#: includes/Admin/Page.php:265
+msgid "Remove access token"
+msgstr "Удалить токен доступа"
+
+#: includes/Admin/Page.php:266
+msgid "Clear"
+msgstr "Очистить"
+
+#: includes/Admin/Settings.php:55
+msgid "Auto import"
+msgstr "Автоимпорт"
+
+#: includes/Admin/Settings.php:56
+msgid "Payments"
+msgstr "Методы оплаты"
+
+#: includes/Admin/Settings.php:57
+msgid "Webhooks"
+msgstr "Вебхуки"
+
+#: includes/Admin/Settings.php:58
+msgid "Loyalty"
+msgstr "Лояльность"
+
+#: includes/Admin/Settings.php:59
+msgid "Delivery Zones"
+msgstr "Зоны доставки"
+
+#: includes/Admin/Settings.php:60
+msgid "Checkout"
+msgstr "Оформление заказа"
+
+#: includes/Admin/Settings.php:114
+#, php-format
+msgid "Terminal #%s"
+msgstr "Терминал №%s"
+
+#: includes/Admin/Settings.php:115
+#, php-format
+msgid "Terminal #%s ID - %s%s%s"
+msgstr "ID терминала №%s - %s%s%s"
+
+#: includes/Admin/Settings.php:121 includes/Admin/Settings.php:282
+msgid "Updated automatically when you press 'Get Nomenclature' button."
+msgstr "Обновляется автоматически при нажатии кнопки 'Получить номенклатуру'."
+
+#: includes/Admin/Settings.php:161
+msgid "(PREMIUM FEATURE)"
+msgstr "(ПРЕМИУМ ФУНКЦИЯ)"
+
+#: includes/Admin/Settings.php:218
+#, php-format
+msgid ""
+"Some of these settings are updated automatically on %splugin the page%s."
+msgstr ""
+"Некоторые из этих настроек обновляются автоматически на %sстранице плагина%s."
+
+#: includes/Admin/Settings.php:228
+msgid "Premium options"
+msgstr "Премиум опции"
+
+#: includes/Admin/Settings.php:252
+msgid "Import method"
+msgstr "Метод импорта"
+
+#: includes/Admin/Settings.php:257
+msgid "Unloading from iikoOffice"
+msgstr "Выгрузка из iikoOffice"
+
+#: includes/Admin/Settings.php:258
+msgid "External menu"
+msgstr "Внешнее меню"
+
+#: includes/Admin/Settings.php:265
+msgid "Organization for import"
+msgstr "Организация для импорта"
+
+#: includes/Admin/Settings.php:266 includes/Admin/Settings.php:568
+#, php-format
+msgid "Organization ID - %s%s%s"
+msgstr "ID организации - %s%s%s"
+
+#: includes/Admin/Settings.php:271
+msgid ""
+"Updated automatically when you press 'Save Organization for Import' button."
+msgstr ""
+"Обновляется автоматически при нажатии кнопки 'Сохранить организацию для "
+"импорта'."
+
+#: includes/Admin/Settings.php:281
+msgid "Nomenclature revision"
+msgstr "Ревизия номенклатуры"
+
+#: includes/Admin/Settings.php:291
+msgid "Update stop list"
+msgstr "Обновлять стоп-лист"
+
+#: includes/Admin/Settings.php:292
+msgid "Update products by iiko stop list after import"
+msgstr "Обновление товаров по стоп-листу iiko после импорта"
+
+#: includes/Admin/Settings.php:293
+msgid "This option is useful when you use stop lists."
+msgstr "Этот параметр полезен при использовании стоп-листов."
+
+#: includes/Admin/Settings.php:301
+msgid "Import product into multiple categories"
+msgstr "Импортировать товары в несколько категорий"
+
+#: includes/Admin/Settings.php:302
+msgid "Each product can be contained in several categories"
+msgstr "Каждый товар может содержаться в нескольких категориях"
+
+#: includes/Admin/Settings.php:310
+msgid "Async import"
+msgstr "Асинхронный импорт"
+
+#: includes/Admin/Settings.php:311
+msgid "Import products in the background"
+msgstr "Импортировать товары в фоновом режиме"
+
+#: includes/Admin/Settings.php:318
+msgid "Reverse groups import"
+msgstr "Обратный импорт групп"
+
+#: includes/Admin/Settings.php:319
+msgid "Import groups in the reverse order"
+msgstr "Импортировать группы в обратном порядке"
+
+#: includes/Admin/Settings.php:326
+msgid "Import only simple products"
+msgstr "Импортировать только простые товары"
+
+#: includes/Admin/Settings.php:327
+msgid "Import all iiko products as simple WooCommerce products"
+msgstr "Импортировать все продукты iiko как простые товары WooCommerce"
+
+#: includes/Admin/Settings.php:335 includes/Traits/PageElementsTrait.php:310
+msgid "Modifiers"
+msgstr "Модификаторы"
+
+#: includes/Admin/Settings.php:336
+msgid "Skip unrequired modifiers"
+msgstr "Пропустить необязательные модификаторы"
+
+#: includes/Admin/Settings.php:337
+msgid "Do not import unrequired group modifiers"
+msgstr "Не импортировать необязательные групповые модификаторы"
+
+#: includes/Admin/Settings.php:345
+msgid "Skip these group modifiers"
+msgstr "Не импортировать эти групповые модификаторы"
+
+#: includes/Admin/Settings.php:346
+msgid "Separate group modifier names with a pipe character - |"
+msgstr ""
+"Разделите имена групповых модификаторов с помощью вертикальной черты - |"
+
+#: includes/Admin/Settings.php:362
+msgid "Import group modifiers as product custom fields"
+msgstr "Импортировать групповые модификаторы как произвольные поля товаров"
+
+#: includes/Admin/Settings.php:363
+msgid "Do not import group modifiers as product variations"
+msgstr "Не импортировать групповые модификаторы  как вариации товаров"
+
+#: includes/Admin/Settings.php:373
+msgid "Show modifiers description"
+msgstr "Показать описание модификаторов"
+
+#: includes/Admin/Settings.php:383
+msgid "To import"
+msgstr "Импортировать"
+
+#: includes/Admin/Settings.php:384
+msgid "Images"
+msgstr "Изображения"
+
+#: includes/Admin/Settings.php:385
+msgid "Import products and categories images from iiko"
+msgstr "Импортировать изображения товаров и категорий из iiko"
+
+#: includes/Admin/Settings.php:392
+msgid "Descriptions"
+msgstr "Описания"
+
+#: includes/Admin/Settings.php:393
+msgid "Import products and categories descriptions from iiko"
+msgstr "Импортировать описания товаров и категорий из iiko"
+
+#: includes/Admin/Settings.php:400
+msgid "Tags"
+msgstr "Метки"
+
+#: includes/Admin/Settings.php:401
+msgid "Import products tags from iiko"
+msgstr "Импортировать метки (теги) товаров из iiko"
+
+#: includes/Admin/Settings.php:408
+msgid "SEO"
+msgstr "СЕО"
+
+#: includes/Admin/Settings.php:409
+msgid ""
+"Import products and categories SEO titles and descriptions from iiko (works "
+"only with Yoast SEO plugin)"
+msgstr ""
+"Импортировать SEO-заголовки и описания товаров и категорий из iiko (работает "
+"только с плагином Yoast SEO)"
+
+#: includes/Admin/Settings.php:416
+msgid "Sale prices"
+msgstr "Цены со скидкой"
+
+#: includes/Admin/Settings.php:417
+msgid "Import sale prices from iiko"
+msgstr "Импортировать цены со скидками из iiko"
+
+#: includes/Admin/Settings.php:424
+msgid "Enable reviews"
+msgstr "Включить отзывы"
+
+#: includes/Admin/Settings.php:425
+msgid "When importing products"
+msgstr "При импорте товаров"
+
+#: includes/Admin/Settings.php:432
+msgid "Hide all old products"
+msgstr "Скрыть все старые товары"
+
+#: includes/Admin/Settings.php:433
+#, php-format
+msgid ""
+"Set status %sOut of stock%s for all products that are not in the current "
+"iiko stock list"
+msgstr ""
+"Установить статус %sНет в наличии%s для всех товаров, которых нет в текущей "
+"выгрузке номенклатуры iiko"
+
+#: includes/Admin/Settings.php:444
+msgid "Delete old products"
+msgstr "Удалить старые товары"
+
+#: includes/Admin/Settings.php:445
+#, php-format
+msgid ""
+"Leave %sonly products from selected groups%s. The rest of the items will be "
+"removed into Trash"
+msgstr ""
+"Оставить %sтолько товары из выбранных групп%s. Остальные элементы будут "
+"удалены в корзину"
+
+#: includes/Admin/Settings.php:456
+msgid "Delete attributes and variations"
+msgstr "Удаление атрибуты и вариации"
+
+#: includes/Admin/Settings.php:457
+msgid "Delete all attributes and variations for variable WooCommerce products"
+msgstr "Удалить все атрибуты и вариации для вариативных товаров WooCommerce"
+
+#: includes/Admin/Settings.php:465
+msgid "Variations limit"
+msgstr "Лимит вариаций"
+
+#: includes/Admin/Settings.php:466
+msgid "Limit the number of created variations."
+msgstr "Ограничить количество создаваемых вариаций."
+
+#: includes/Admin/Settings.php:467
+msgid ""
+"Default limit is 50 variation. Use 0 in order to create all possible "
+"variations."
+msgstr ""
+"По умолчанию ограничение составляет 50 вариаций. Для создания всех возможных "
+"вариаций используйте 0."
+
+#: includes/Admin/Settings.php:481
+msgid "Delete old product photos"
+msgstr "Удалить старые изображения товаров"
+
+#: includes/Admin/Settings.php:482
+#, php-format
+msgid "Delete %sALL old photos%s for each product"
+msgstr "Удалить %sВСЕ старые изображения%s для каждого товара"
+
+#: includes/Admin/Settings.php:492
+msgid "Delete old product categories photos"
+msgstr "Удалить старые изображения категорий товаров"
+
+#: includes/Admin/Settings.php:493
+#, php-format
+msgid "Delete %sold photo%s for each product category"
+msgstr "Удалить %sстарое изображение%s для каждой категории товаров"
+
+#: includes/Admin/Settings.php:520
+msgid "Export orders"
+msgstr "Экспорт заказов"
+
+#: includes/Admin/Settings.php:521
+msgid "Export orders instead of deliveries."
+msgstr "Экспортировать заказы вместо доставок."
+
+#: includes/Admin/Settings.php:527
+msgid "Deliveries"
+msgstr "Доставки"
+
+#: includes/Admin/Settings.php:528
+msgid "Orders for the kitchen"
+msgstr "Заказы на кухню"
+
+#: includes/Admin/Settings.php:529
+msgid "Deliveries and Orders for the kitchen"
+msgstr "Доставки и заказы на кухню"
+
+#: includes/Admin/Settings.php:530
+msgid "Turn off export"
+msgstr "Отключить экспорт"
+
+#: includes/Admin/Settings.php:537
+msgid "Check orders after they are exported"
+msgstr "Проверять заказы после экспорта"
+
+#: includes/Admin/Settings.php:544
+msgid "Close orders after they are exported"
+msgstr "Закрывать заказы после экспорта"
+
+#: includes/Admin/Settings.php:545 includes/Admin/Settings.php:553
+msgid "Only for exporting kitchen orders."
+msgstr "Только для экспорта заказов на кухню."
+
+#: includes/Admin/Settings.php:552
+msgid "Whether paper cheque should be printed"
+msgstr "Нужно ли печатать бумажный чек"
+
+#: includes/Admin/Settings.php:560
+msgid "Check online payment method"
+msgstr "Проверить метод онлайн оплаты"
+
+#: includes/Admin/Settings.php:561
+msgid "Use payment method slug."
+msgstr "Используйте код метода оплаты."
+
+#: includes/Admin/Settings.php:567
+msgid "Organization for export"
+msgstr "Организация для экспорта"
+
+#: includes/Admin/Settings.php:573
+msgid ""
+"Updated when you press 'Save Organization and Terminals for Export' button."
+msgstr ""
+"Обновляется при нажатии кнопки \"Сохранить организацию и терминалы для "
+"экспорта\"."
+
+#: includes/Admin/Settings.php:583
+msgid "Default city"
+msgstr "Город по умолчанию"
+
+#: includes/Admin/Settings.php:584
+msgid ""
+"This list contains the cities that you last imported and that will be used "
+"on the checkout page."
+msgstr ""
+"Этот список содержит города, которые вы импортировали в последний раз и "
+"которые будут использоваться на странице оформления заказа."
+
+#: includes/Admin/Settings.php:585
+msgid "Updated automatically when you press 'Get Streets' button."
+msgstr "Обновляется автоматически при нажатии кнопки 'Получить улицы'."
+
+#: includes/Admin/Settings.php:594
+msgid "Default iiko street ID"
+msgstr "ID улицы iiko по-умолчанию"
+
+#: includes/Admin/Settings.php:595
+msgid ""
+"This street will be used, if a customer chooses his own street during a "
+"checkout process."
+msgstr ""
+"Эта улица будет использоваться, если покупатель выберет свою улицу в "
+"процессе оформления заказа."
+
+#: includes/Admin/Settings.php:601
+msgid "To export"
+msgstr "Экспортировать"
+
+#: includes/Admin/Settings.php:602
+msgid "Prices"
+msgstr "Цены"
+
+#: includes/Admin/Settings.php:603
+msgid ""
+"Export product prices to iiko (sale prices if they are or regular prices "
+"instead)"
+msgstr ""
+"Экспортировать цены товаров в iiko (цены со скидкой, если они есть, или "
+"обычные цены)"
+
+#: includes/Admin/Settings.php:610
+msgid "Shipping as product ID"
+msgstr "ID товара для доставки"
+
+#: includes/Admin/Settings.php:611
+msgid "Move shipping costs to a separate product."
+msgstr "Переместить стоимость доставки в отдельный товар."
+
+#: includes/Admin/Settings.php:612
+msgid "The ID of the product to transfer the shipping cost."
+msgstr "ID товара для стоимости доставки."
+
+#: includes/Admin/Settings.php:636
+msgid "IikoCloud Settings"
+msgstr "Настройки iikoCloud"
+
+#: includes/Admin/Settings.php:653
+msgid "API-key"
+msgstr "АПИ-ключ"
+
+#: includes/Admin/Settings.php:654
+#, php-format
+msgid ""
+"Unique identifier of the store, issued by the iiko. %sSee documentation%s or "
+"contact your personal manager for more details."
+msgstr ""
+"Уникальный идентификатор магазина, выданный iiko. %sПодробнее в "
+"документации%s или у вашего персонального менеджера iiko."
+
+#: includes/Admin/Settings.php:660
+msgid "If the API-key field is empty, then the plugin will not work."
+msgstr "Если поле АПИ-ключ пусто, то плагин работать не будет."
+
+#: includes/Admin/Settings.php:666
+msgid "Timeout in seconds"
+msgstr "Таймаут в секундах"
+
+#: includes/Admin/Settings.php:667
+msgid "Time limit for API requests."
+msgstr "Лимит времени для запросов API."
+
+#: includes/Admin/Settings.php:668
+msgid "Default iikoCloud API value is 15 second."
+msgstr "Значение по-умолчанию iikoCloud API - 15 секунд."
+
+#: includes/Admin/Settings.php:680
+msgid "API Server"
+msgstr "API сервер"
+
+#: includes/Admin/Settings.php:681
+msgid "Use European iiko API Server"
+msgstr "Использовать европейский сервер API iiko"
+
+#: includes/Admin/Settings.php:682
+msgid "If unchecked the Russian iiko API server will be used."
+msgstr ""
+"Если не отмечено флажком, будет использоваться российский сервер API iiko."
+
+#: includes/Admin/Settings.php:694
+msgid "Debug"
+msgstr "Отладка"
+
+#: includes/Admin/Settings.php:700
+msgid "Debug mode"
+msgstr "Режим отладки"
+
+#: includes/Admin/Settings.php:701
+msgid "Turn on debug mode"
+msgstr "Включить режим отладки"
+
+#: includes/Admin/Settings.php:702
+#, php-format
+msgid "See logs in %sWooCommerce > System Status > Logs%s."
+msgstr "Смотрите логи в %sWooCommerce > Статус > Журналы%s."
+
+#: includes/Admin/Settings.php:712
+msgid "Email for errors"
+msgstr "Email для ошибок"
+
+#: includes/Admin/Settings.php:713
+msgid "Comma-separated list of email addresses to send error messages"
+msgstr ""
+"Список адресов электронной почты, разделенных запятыми, для отправки "
+"сообщений об ошибках"
+
+#: includes/Admin/Settings.php:714
+msgid "If this field is empty, the site administrator's email will be used."
+msgstr "Если это поле пустое, будет использоваться email администратора сайта."
+
+#: includes/Admin/Settings.php:721
+msgid "Telegram bot token"
+msgstr "Токен бота Telegram"
+
+#: includes/Admin/Settings.php:722
+#, php-format
+msgid "See this %sinstruction%s to get it."
+msgstr "Смотрите эту %sинструкцию%s, чтобы получить его."
+
+#: includes/Admin/Settings.php:726 includes/Admin/Settings.php:734
+#: includes/Admin/Settings.php:746
+msgid "If this field is empty, messages to Telegram won't be sent."
+msgstr "Если это поле пустое, то сообщения в Телеграм отправляться не будут."
+
+#: includes/Admin/Settings.php:733
+msgid "Telegram bot user name"
+msgstr "Имя пользователя бота Telegram"
+
+#: includes/Admin/Settings.php:741
+msgid "Telegram chat ID"
+msgstr "ID чата Telegram"
+
+#: includes/Admin/Settings.php:742
+#, php-format
+msgid ""
+"Use the URL %shttps://api.telegram.org/bot<YourBOTToken>/getUpdates%s to get "
+"it."
+msgstr ""
+"Используйте URL %shttps://api.telegram.org/bot<YourBOTToken>/getUpdates%s "
+"чтобы получить его."
+
+#: includes/Admin/Settings.php:758
+msgid "Localization"
+msgstr "Локализация"
+
+#: includes/Admin/Settings.php:764
+msgid "Locale"
+msgstr "Локаль"
+
+#: includes/Admin/Settings.php:765 includes/Admin/Settings.php:777
+#, php-format
+msgid "Default value is %s."
+msgstr "Значение по-умолчанию %s."
+
+#: includes/Admin/Settings.php:776
+msgid "Time zone"
+msgstr "Часовой пояс"
+
+#: includes/Admin/Settings.php:787
+msgid "Opening hour"
+msgstr "Час закрытия"
+
+#: includes/Admin/Settings.php:788
+msgid "Opening time of the establishment. Possible values: 1 - 24"
+msgstr "Время открытия заведения. Возможные значения: 1 - 24"
+
+#: includes/Admin/Settings.php:800
+msgid "Closing hour"
+msgstr "Час закрытия"
+
+#: includes/Admin/Settings.php:801
+msgid "Closing time of the establishment. Possible values: 1 - 24"
+msgstr "Время закрытия заведения. Возможные значения: 1 - 24"
+
+#: includes/Admin/Settings.php:818
+msgid "Other"
+msgstr "Другое"
+
+#: includes/Admin/Settings.php:824
+msgid "Plugin Uninstallation"
+msgstr "Удаление плагина"
+
+#: includes/Admin/Settings.php:825
+msgid "Remove settings after plugin uninstallation"
+msgstr "Удалить настройки после удаления плагина"
+
+#: includes/Async_Actions/Check_Order_Async.php:51
+#, php-format
+msgid "Iiko delivery creation error. Order %s"
+msgstr "Ошибка создания доставки iiko. Заказ %s "
+
+#: includes/Async_Actions/Check_Order_Async.php:61
+#, php-format
+msgid "iiko creation status is %s. ID: %s"
+msgstr "Статус создания в iiko - %s. ID: %s"
+
+#: includes/Export/Export.php:102 includes/Export/Export.php:126
+#, php-format
+msgid "Order #%s has payment method: %s"
+msgstr "В заказе №%s указан способ оплаты: %s"
+
+#: includes/Export/Export.php:160
+#, php-format
+msgid "New order #%s."
+msgstr "Новый заказ №%s."
+
+#: includes/Export/Manual_Order_Actions.php:84
+#, php-format
+msgid "Order #%s does not have iiko ID"
+msgstr "У заказа №%s нет идентификатора iiko"
+
+#: includes/Export/Manual_Order_Actions.php:158
+msgctxt "Button"
+msgid "Back to the orders list"
+msgstr "Вернуться к списку заказов"
+
+#: includes/Frontend/Shortcodes.php:55
+msgid "E"
+msgstr "К"
+
+#: includes/Frontend/Shortcodes.php:56
+msgid "P"
+msgstr "Б"
+
+#: includes/Frontend/Shortcodes.php:57
+msgid "F"
+msgstr "Ж"
+
+#: includes/Frontend/Shortcodes.php:58
+msgid "C"
+msgstr "У"
+
+#: includes/Frontend/Shortcodes.php:68
+msgid "per 100 g"
+msgstr "на 100 гр."
+
+#: includes/Frontend/Shortcodes.php:69
+msgid "per item"
+msgstr "на блюдо"
+
+#: includes/Frontend/Shortcodes.php:72
+msgid "kcal"
+msgstr "ккал."
+
+#: includes/Frontend/Shortcodes.php:73 includes/Frontend/Shortcodes.php:74
+#: includes/Frontend/Shortcodes.php:75
+msgid "g"
+msgstr "гр."
+
+#: includes/HTTP_Request.php:23
+msgid "API request resource is empty"
+msgstr "Ресурс API-запроса пуст"
+
+#: includes/HTTP_Request.php:72
+#, php-format
+msgid "Request failed. WP_Error: %s - %s"
+msgstr "Запрос не выполнен. WP_Error: %s - %s"
+
+#: includes/HTTP_Request.php:85
+#, php-format
+msgid "Request failed. %s - %s"
+msgstr "Запрос не прошёл. %s - %s"
+
+#: includes/HTTP_Request.php:97
+msgid "Response body is not a correct JSON"
+msgstr "Тело ответа не является корректным JSON"
+
+#: includes/HTTP_Request.php:105
+msgid "Response is not an array or is empty"
+msgstr "Ответ не является массивом или пуст"
+
+#: includes/HTTP_Request.php:116
+#, php-format
+msgid "Iiko response contains the error: %s - %s"
+msgstr "Ответ Iiko содержит ошибку: %s - %s"
+
+#: includes/Import/Import_Categories.php:139
+#, php-format
+msgid "There is no image for product category %s"
+msgstr "Изображение для категории товара %s отсутствует"
+
+#: includes/Import/Import_Categories.php:174
+#, php-format
+msgid "Error while relate product category thumbnail for %s"
+msgstr "Ошибка при добавлении изображения категории товара %s"
+
+#: includes/Import/Import_Nomenclature.php:105
+msgid "No groups to import"
+msgstr "Нет групп для импорта"
+
+#: includes/Import/Import_Nomenclature.php:131
+msgid "No imported groups"
+msgstr "Нет импортированных групп"
+
+#: includes/Import/Import_Nomenclature.php:195
+msgid ""
+"Nomenclature cache is empty. Get the nomenclature from iiko again or check "
+"import method in the plugin settings"
+msgstr ""
+"Кэш номенклатуры пуст. Получите номенклатуру из iiko еще раз или проверьте "
+"метод импорта в настройках плагина"
+
+#: includes/Import/Import_Nomenclature.php:226
+#, php-format
+msgid "Cannot import product category %s"
+msgstr "Невозможно импортировать категорию товаров %s"
+
+#: includes/Import/Import_Nomenclature.php:287
+msgid "Simple modifier groups cache is empty"
+msgstr "Кеш групп модификаторов пуст"
+
+#: includes/Import/Import_Nomenclature.php:288
+msgid "Dishes cache is empty"
+msgstr "Кеш блюд пуст"
+
+#: includes/Import/Import_Nomenclature.php:289
+msgid "Goods cache is empty"
+msgstr "Кеш товаров пуст"
+
+#: includes/Import/Import_Nomenclature.php:290
+msgid "Services cache is empty"
+msgstr "Кеш услуг пуст"
+
+#: includes/Import/Import_Nomenclature.php:293
+msgid "Modifiers cache is empty"
+msgstr "Кэш модификаторов пуст"
+
+#: includes/Import/Import_Nomenclature.php:294
+msgid "Sizes cache is empty"
+msgstr "Кеш размеров пуст"
+
+#: includes/Import/Import_Nomenclature.php:300
+msgid "Products array is empty"
+msgstr "Массив товаров пуст"
+
+#: includes/Import/Import_Nomenclature.php:341
+#: includes/Import/Import_Nomenclature.php:447
+msgid "Product information is empty"
+msgstr "Информация товара пуста"
+
+#: includes/Import/Import_Nomenclature.php:538
+msgid "Product category information is empty"
+msgstr "Информация категории товаров пуста"
+
+#: includes/Import/Import_Nomenclature.php:563
+#, php-format
+msgid "Product category %s is excluded in iiko"
+msgstr "Категория товара %s исключена в iiko"
+
+#: includes/Import/Import_Nomenclature.php:573
+#, php-format
+msgid "Product category %s is a group modifier"
+msgstr "Категория товара %s - групповой модификатор"
+
+#: includes/Import/Import_Nomenclature.php:583
+#, php-format
+msgid "Product category %s is deleted in iiko"
+msgstr "Категория товаров %s удалена в iiko"
+
+#: includes/Import/Import_Nomenclature.php:594
+#, php-format
+msgid "Product category %s does not contain products"
+msgstr "Категория товаров %s не содержит товаров"
+
+#: includes/Import/Import_Products.php:72
+#: includes/Import/Import_Products.php:622
+msgid "Product doesn't have required data"
+msgstr "В товаре отсутствуют необходимые данные"
+
+#: includes/Import/Import_Products.php:85
+#, php-format
+msgid "Product %s is deleted in iiko"
+msgstr "Товар %s удален в iiko"
+
+#: includes/Import/Import_Products.php:244
+#: includes/Import/Import_Products.php:941
+msgid "Modifier"
+msgstr "Модификатор"
+
+#: includes/Import/Import_Products.php:370
+#, php-format
+msgid "Product %s has sizes. Created %s variation(s)"
+msgstr "Товар %s имеет размеры. Создано %s вариаций"
+
+#: includes/Import/Import_Products.php:415
+#: includes/Import/Import_Products.php:484
+#, php-format
+msgid "Product %s has modifiers. Created %s variation(s)"
+msgstr "Товар %s имеет модификаторы. Создано %s вариаций"
+
+#: includes/Import/Import_Products.php:441
+#, php-format
+msgid "Modifier %s"
+msgstr "Модификатор %s"
+
+#: includes/Import/Import_Products.php:444
+#, php-format
+msgid "Product %s has modifiers, but modifier %s doesn't have iiko ID or empty"
+msgstr ""
+"У товара %s есть модификаторы, но модификатор %s не имеет iiko ID или пуст"
+
+#: includes/Import/Import_Products.php:551
+#, php-format
+msgid "Product %s has sizes and modifiers. Created %s variation(s)"
+msgstr "Товар %s имеет размеры и модификаторы. Создано %s вариаций"
+
+#: includes/Import/Import_Products.php:884
+#, php-format
+msgid "Created %s variation(s) for %s"
+msgstr "Создано %s вариаций для %s"
+
+#: includes/Import/Import_Products.php:911
+msgid "Size"
+msgstr "Размер"
+
+#: includes/Import/Import_Products.php:950
+#, php-format
+msgid "Product %s doesn't have size SKU"
+msgstr "У товара %s нет артикула размера"
+
+#: includes/Import/Import_Products.php:1036
+#, php-format
+msgid "Product %s doesn't have modifier group SKU"
+msgstr "У товара %s нет артикула группы модификаторов"
+
+#: includes/Import/Import_Products.php:1079
+#, php-format
+msgid "Product %s doesn't have modifier SKU"
+msgstr "У товара %s нет артикула модификатора"
+
+#: includes/Import/Import_Products.php:1159
+#, php-format
+msgid "There is no image for product %s"
+msgstr "Изображение для товара %s отсутствует"
+
+#: includes/Import/Import_Products.php:1196
+#, php-format
+msgid "Error while relate product thumbnail for %s"
+msgstr "Ошибка при добавлении изображения товара %s"
+
+#: includes/Import/Import_Products.php:1237
+#, php-format
+msgid "Error while relate product image gallery for %s"
+msgstr "Ошибка при добавлении изображения галереи товара %s"
+
+#: includes/Traits/CacheTrait.php:34
+#, php-format
+msgid "Cannot set chunk #%s with transient of type - %s"
+msgstr "Невозможно установить чанк #%s с трансиентом типа - %s"
+
+#: includes/Traits/CacheTrait.php:56
+#, php-format
+msgid ""
+"Error while getting iiko %s from the cache. Get the nomenclature one more "
+"time."
+msgstr "Ошибка при получении %s iiko из кэша. Получите номенклатуру еще раз."
+
+#: includes/Traits/ChecksTrait.php:21
+#, php-format
+msgid "%s request failed"
+msgstr "%s запрос не прошёл"
+
+#: includes/Traits/ChecksTrait.php:56
+#, php-format
+msgid "%s empty"
+msgstr "%s пусто"
+
+#: includes/Traits/ChecksTrait.php:74
+#, php-format
+msgid "%s ID is empty"
+msgstr "%s ID пуст"
+
+#: includes/Traits/ChecksTrait.php:90
+#, php-format
+msgid "%s name is empty"
+msgstr "%s имя пустое"
+
+#: includes/Traits/ImportTrait.php:49
+#, php-format
+msgid "%1$s %2$s %3$s error"
+msgstr "%1$s %2$s %3$s ошибка"
+
+#: includes/Traits/ImportTrait.php:63
+msgid "updated"
+msgstr "обновлено"
+
+#: includes/Traits/ImportTrait.php:63
+msgid "inserted"
+msgstr "Добавлен(ы)"
+
+#: includes/Traits/ImportTrait.php:64
+#, php-format
+msgid "%1$s %2$s has been successfully %3$s (ID: %4$d)"
+msgstr "%1$s %2$s был успешно %3$s (ID: %4$d)"
+
+#: includes/Traits/ImportTrait.php:103
+#, php-format
+msgid "Product %s: SKU %s is not unique"
+msgstr "Товар %s: Артикул %s не уникален"
+
+#: includes/Traits/PageElementsTrait.php:30
+#, php-format
+msgid "%1sIikoCloud Control Panel v%2s%3s"
+msgstr "%1sПанель управления iikoCloud v%2s%3s"
+
+#: includes/Traits/PageElementsTrait.php:49
+#, php-format
+msgid "%sExporting orders to the kitchen from tables%s"
+msgstr "%sЭкспорт заказов на кухню со столиков%s"
+
+#: includes/Traits/PageElementsTrait.php:50
+#, php-format
+msgid "%sUpdating order statuses from iiko on the website%s"
+msgstr "%sОбновление статусов заказов из iiko на сайте%s"
+
+#: includes/Traits/PageElementsTrait.php:51
+#, php-format
+msgid "%sAdvanced import of dishes%s - with sizes and group modifiers"
+msgstr "%sПродвинутый импорт блюд%s - с размерами и групповыми модификаторами"
+
+#: includes/Traits/PageElementsTrait.php:52
+#, php-format
+msgid "%sSimultaneous export of delivery orders and kitchen orders%s"
+msgstr "%sОдновременный экспорт доставочных заказов и заказов на кухню%s"
+
+#: includes/Traits/PageElementsTrait.php:53
+#, php-format
+msgid ""
+"%sSupport for a bonus system%s - a fixed percentage discount on an order"
+msgstr ""
+"%sПоддержка бонусной системы%s в виде фиксированного процента скидки на заказ"
+
+#: includes/Traits/PageElementsTrait.php:54
+#, php-format
+msgid ""
+"%sLinking WooCommerce payment methods used on the site to iiko payment "
+"types%s"
+msgstr ""
+"%sПривязка используемых на сайте методов оплаты WooCommerce к типам оплаты "
+"iiko%s"
+
+#: includes/Traits/PageElementsTrait.php:55
+#, php-format
+msgid ""
+"%sAuto-import of items%s according to schedule after a specified period of "
+"time"
+msgstr ""
+"%sАвтоимпорт номенклатуры%s по расписанию через заданный промежуток времени"
+
+#: includes/Traits/PageElementsTrait.php:56
+#, php-format
+msgid ""
+"%sUpdating iiko stop lists%s - instant removal from sale of goods added to "
+"the iiko stop list"
+msgstr ""
+"%sОбновление стоп-листов iiko%s - мгновенное снятие с продажи товаров "
+"добавленных в iiko в стоп-лист"
+
+#: includes/Traits/PageElementsTrait.php:57
+#, php-format
+msgid ""
+"%sFlexible customization of the ordering page%s - additional fields: guests, "
+"time, entrance, floor and many others"
+msgstr ""
+"%sГибкая настройка страницы оформления заказа%s - дополнительные поля: "
+"гости, время, подъезд, этаж и многие другие"
+
+#: includes/Traits/PageElementsTrait.php:58
+#, php-format
+msgid ""
+"%sDelivery zones on Yandex.Map%s when placing an order. Linking Shipping "
+"Zones to WooCommerce Shipping Methods"
+msgstr ""
+"%sЗоны доставки на Яндекс.Карте%s при оформлении заказа. Привязка зон "
+"доставки к методам доставки WooCommerce"
+
+#: includes/Traits/PageElementsTrait.php:59
+#, php-format
+msgid ""
+"%sTwo new delivery methods: pickup and free delivery%s - for manually "
+"selecting the terminal to which to send the order"
+msgstr ""
+"%sДва новых метода доставки: самовывоз и бесплатная доставка%s - для ручного "
+"выбора терминала на который отправлять заказ"
+
+#: includes/Traits/PageElementsTrait.php:60
+#, php-format
+msgid ""
+"%sAccess to the latest updates for the regular and premium versions of the "
+"plugin%s (the free version on WordPress.org is updated once a year)"
+msgstr ""
+"%sДоступ к актуальным обновлениям обычной и премиум-версии плагина%s "
+"(бесплатная версия на WordPress.org обновляется раз в год)"
+
+#: includes/Traits/PageElementsTrait.php:72
+msgid "Renew iikoCloud for WooCommerce Premium"
+msgstr "Обновить до iikoCloud для WooCommerce Premium"
+
+#: includes/Traits/PageElementsTrait.php:87
+msgid "Get iikoCloud for WooCommerce Premium"
+msgstr "Получите iikoCloud для WooCommerce Premium"
+
+#: includes/Traits/PageElementsTrait.php:110
+#, php-format
+msgid "%sSettings%s"
+msgstr "%sНастройки%s"
+
+#: includes/Traits/PageElementsTrait.php:115
+#, php-format
+msgid "%sLogs%s"
+msgstr "%sЛоги%s"
+
+#: includes/Traits/PageElementsTrait.php:120
+#, php-format
+msgid "%sPlugin Website%s"
+msgstr "%sСайт плагина%s"
+
+#: includes/Traits/PageElementsTrait.php:125
+#, php-format
+msgid "%sDocumentation%s"
+msgstr "%sДокументация%s"
+
+#: includes/Traits/PageElementsTrait.php:130
+#, php-format
+msgid "%sSupport%s"
+msgstr "%sПоддержка%s"
+
+#: includes/Traits/PageElementsTrait.php:164
+msgid "Get"
+msgstr "Получить"
+
+#: includes/Traits/PageElementsTrait.php:167
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/Traits/PageElementsTrait.php:170
+msgctxt "Action"
+msgid "Import"
+msgstr "Импортировать"
+
+#: includes/Traits/PageElementsTrait.php:173
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/Traits/PageElementsTrait.php:176
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/Traits/PageElementsTrait.php:244
+#, php-format
+msgid "Use %smouse or CTRL + click%s to select several values in the list."
+msgstr ""
+"Используйте %sмышь или CTRL + щелчок мышью%s, чтобы выбрать несколько "
+"значений в списке."
+
+#: includes/Traits/PageElementsTrait.php:271
+msgid "Nomenclature general info:"
+msgstr "Основная информация номенклатуры:"
+
+#: includes/Traits/PageElementsTrait.php:273
+#: includes/Traits/PageElementsTrait.php:283
+msgid "Product categories"
+msgstr "Категории товаров"
+
+#: includes/Traits/PageElementsTrait.php:288
+#: includes/Traits/PageElementsTrait.php:361
+msgid "Products"
+msgstr "Товары"
+
+#: includes/Traits/PageElementsTrait.php:292
+msgid "Dishes"
+msgstr "Блюда"
+
+#: includes/Traits/PageElementsTrait.php:298
+msgid "Goods"
+msgstr "Товары"
+
+#: includes/Traits/PageElementsTrait.php:304
+msgid "Services"
+msgstr "Услуги"
+
+#: includes/Traits/PageElementsTrait.php:317
+msgid "Sizes"
+msgstr "Размеры"
+
+#: includes/Traits/PageElementsTrait.php:324
+msgid "Revision:"
+msgstr "Ревизия:"
+
+#: includes/Traits/PageElementsTrait.php:349
+msgid "Imported nomenclature info:"
+msgstr "Информация об импортированной номенклатуре:"
+
+#: wc-iikocloud.php:103
+msgid "wpwc.ru"
+msgstr "wpwc.ru"
+
+#~ msgid "Plugin page"
+#~ msgstr "Страница плагина"
+
+#~ msgid "Created in iiko. ID: "
+#~ msgstr "Создано в iiko. ID: "
+
+#~ msgid "Iiko delivery creation error. Code 200"
+#~ msgstr "Ошибка создания доставки iiko. Код 200"
+
+#~ msgid "Iiko delivery creation error. Code "
+#~ msgstr "Ошибка создания доставки iiko. Код "
+
+#, php-format
+#~ msgid "Order #%s failed"
+#~ msgstr "Заказ №%s не удался"
+
+#~ msgctxt "Button"
+#~ msgid "&larr; Back"
+#~ msgstr "&larr; Назад"
+
+#, php-format
+#~ msgid "Failed to remove option: %s"
+#~ msgstr "Не удалось удалить настройку: %s"
+
+#, php-format
+#~ msgid "Failed to remove option: %s. Blog ID: %d"
+#~ msgstr "Не удалось удалить настройку: %s. ID сайта: %d"
+
+#, php-format
+#~ msgid ""
+#~ "Close orders right after creation if order status %sis not%s 'Failed'"
+#~ msgstr ""
+#~ "Закрывать заказ сразу после создания если статус заказа %sне%s \"Не "
+#~ "удался\""
+
+#~ msgid "%s%s%s needs %s%s%s plugin to run. Please, install and active it."
+#~ msgstr ""
+#~ "Для работы %s%s%s требуется %s%s%s. Пожалуйста, установите и активируйте "
+#~ "его."
+
+#~ msgid "%s requires PHP 7.4. Please, update you PHP version."
+#~ msgstr "%s требует PHP 7.4 и выше. Пожалуйста, обновите вашу версию PHP."
+
+#~ msgid "Product doesn't have sizes"
+#~ msgstr "У товара нет размеров"
+
+#~ msgid "Fat"
+#~ msgstr "Жиры"
+
+#~ msgid "Advanced import"
+#~ msgstr "Продвинутый импорт"
+
+#~ msgid "City does not have streets"
+#~ msgstr "Город не содержит улиц"
+
+#~ msgid "Import only simple modifiers"
+#~ msgstr "Импортировать только простые модификаторы"
